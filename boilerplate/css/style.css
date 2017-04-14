@@ -1,0 +1,107 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000; }
+
+h1 {
+  font-size: 44px;
+  line-height: 1.2em;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin: 0px 0px 20px; }
+
+h2 {
+  font-size: 32px;
+  line-height: 1.2em;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin: 0px 0px 20px; }
+
+h3 {
+  font-size: 24px;
+  line-height: 1.2em;
+  text-transform: capitalize; }
+
+p {
+  font-size: 17px;
+  line-height: 1.8em;
+  text-align: justify; }
+
+.button {
+  color: #fff;
+  background-color: #0F3B32;
+  border-radius: 4px;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 20px 0px;
+  cursor: pointer;
+  margin: 0px auto;
+  display: block;
+  width: 200px; }
+  .button:hover {
+    background-color: #001410; }
+
+header {
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  color: #fff;
+  text-align: center;
+  padding: 200px 0px; }
+  header .hero-h1 {
+    font-size: 60px;
+    margin-bottom: 70px;
+    font-weight: 400; }
+  header .hero-h2 {
+    font-size: 38px;
+    margin-bottom: 70px; }
+
+.section-services {
+  text-align: center;
+  padding: 70px 20px 70px; }
+  .section-services .text-wrapper {
+    display: flex;
+    width: auto;
+    margin: 70px 100px; }
+    .section-services .text-wrapper .text-box-left {
+      padding: 0px 50px 0px 0px;
+      border-right: 1px solid #ccc; }
+    .section-services .text-wrapper .text-box-right {
+      padding: 0px 0px 0px 50px; }
+
+.section-value {
+  background-color: #042720;
+  color: #fff;
+  text-align: center;
+  padding: 70px 20px 70px; }
+  .section-value .text-wrapper {
+    display: flex;
+    margin: 50px 50px 0px; }
+    .section-value .text-wrapper .text-box {
+      background-color: #0F3B32;
+      color: #fff;
+      width: 45%;
+      margin: 20px 10px;
+      padding: 20px 20px;
+      box-sizing: border-box;
+      border: 1px solid #001410;
+      border-bottom: 3px solid #001410; }
+      .section-value .text-wrapper .text-box:hover {
+        transition: box-shadow 0.25s;
+        box-shadow: 0px 8px 17px 0 #001410, 0px 6px 20px 0 #001410; }
+      .section-value .text-wrapper .text-box h3 {
+        font-weight: 500;
+        margin: 20px 0px 30px; }
+      .section-value .text-wrapper .text-box p {
+        text-align: center;
+        margin-top: 30px; }
+
+footer {
+  background-color: #042720;
+  height: 100px; }
+
+/*# sourceMappingURL=style.css.map */
